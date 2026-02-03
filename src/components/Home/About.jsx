@@ -14,8 +14,8 @@ const AboutSection = () => {
 
   const testimonials = [
   {
-    text: "Brilliant service! I attempted to clean my seats with an upholstery cleaner and it made a really bad mess and this company sorted them out. Thank you for correcting the awful mess I had made.",
-    name: "Bev Starbuck",
+    text: "I recently had a cracked alloy with my MOT due really soon and was recommended maverick through a mate of mine. He sorted the wheel extremely quickly and did an amazing job, would 100% recommend for anyone needed work done with alloy wheels.",
+    name: "Harry",
   },
 
 ]

@@ -6,22 +6,22 @@ import "aos/dist/aos.css";
 
 const services = [
   {
-    title: "Detailing",
-    desc: `Showroom shine that protects your paint and makes your car stand out.
+    title: "Wheel Repair",
+    desc: `Quick restoration of scuffs and damage to keep your wheels looking clean and like new.
 `,
     image: "/carpaint.avif",
     path: "/services/mechanical",
   },
   {
-    title: "Valeting",
-    desc: `Affordable, convenient cleaning to give your car a fresh showroom look.`,
+    title: "Ceramic Coating",
+    desc: `Restores shine and removes scratches or corrosion from alloy wheels.`,
 
     image: "/gray.avif",
     path: "/services/service",
   },
   {
-    title: "Roof Cleaning",
-    desc: `Professional removal of moss, algae, and dirt to restore your roof’s appearance, improve durability.`,
+    title: "Wheel Alignment & Balancing",
+    desc: `Precision alignment and balancing to ensure even tyre wear and better handling.`,
     image: "/carmechanic.avif",
     path: "/services/mot",
   },
@@ -150,7 +150,7 @@ const ServiceSection = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="absolute inset-0 w-[75%] mt-15 mx-auto h-40 object-cover"
+                    className="absolute inset-0 w-[75%] mt-15 mx-auto h-35 object-cover"
                     onError={(e) => {
                       e.currentTarget.onerror = null;
                       e.currentTarget.src = "/logo.png"; // fallback logo
